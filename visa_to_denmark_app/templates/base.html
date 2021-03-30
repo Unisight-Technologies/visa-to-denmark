@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Squadfree Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Squadfree - v4.0.1
+  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+<body style = font-size:16px;>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between" style="margin-left: 3%;">
+
+      <div class="logo">
+        <a href="/" class ="logo1">
+          <img src="/static/assets/img/logo.jpg"  alt="" class="img-fluid" />
+        </a>
+      </div>
+
+
+      <div class="nav-flag">
+        <a href="#"> <img src="{% static 'assets/img/Animated-Flag-Denmark.gif' %}" style="height:45px"> </a>
+        </div>
+
+          <div class="nav-inspiring" style = font-size:13px;>
+              <p class="font-italic" style="color:white text-align:left;""><i>"God's Help, the People's Love, Denmark's Strength"</i></p>
+            </div>
+
+
+
+        <!-- <h1 class="text-light"><a href="index.html"><span>Denmark</span></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="{% static 'assets/img/logo.png' %}" alt="" class="img-fluid"></a>
+      </div> -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{% url 'index' %}">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Breaking News</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{% url 'student' %}">Student Visa & General Requirements</a></li>
+              <li><a href="{% url 'workvisa' %}">Work Visa</a></li>
+              <li><a href="{% url 'visitorvisa' %}">Visitor Visa</a></li>
+              <li><a href="{% url 'family' %}">Family Visa </a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Migration Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li> <a href="#">Italy</a> </li>
+            <li> <a href="https://visatospain.pro/">Spain</a> </li>
+            <li> <a href="https://visatomalta.com/">Malta</a> </li>
+            <li> <a href="https://visatoportugal.pro/">Portugal</a> </li>
+            <li> <a href="#">Greece</a> </li>
+            <li> <a href="https://visatocyprus.com/">Cyprus</a> </li>
+            <li> <a href="https://visatoireland.com/">Ireland</a> </li>
+            <li> <a href="https://visatocanada.pro/">Canada</a> </li>
+            <li> <a href="https://www.visatonewzealand.pro/">New Zealand</a></li>
+            <li> <a href="https://www.visatoaustralia.pro/">Australia</a> </li>
+            <li> <a href="https://visatogermany.com/">Germany</a> </li>
+            <li> <a href="https://visatoamerica.org/">America</a> </li>
+
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="{% url 'about' %}">About Us</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact Us</a></li>
+
+
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+         <div style="background-color: #4B99BC; padding-top:-60%; padding-left: 50px;" class="drop-down1" id="google_translate_element"></div>
+
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Welcome to Denmark</h1>
+      <h2>"God's Help, the People's Love, Denmark's Strength"</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section><!- End Hero -->
+
+
+
+
+{% block body_block %}
+
+{% endblock %}
+
+
+
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <img class="footer-logo" style="width: 180px" src="/static/assets/img/logo.jpg" alt="">
+              <br />
+
+
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'index' %}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'about' %}">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'contact' %}">Contact Us</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Migration Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Italy</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatospain.pro/">Spain</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatomalta.com/">Malta</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatoportugal.pro/">Portugal</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="#">Greece</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatocyprus.com/">Cyprus</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatoireland.com/">Ireland</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatocanada.pro/">Canada</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://www.visatonewzealand.pro/">New Zealand</a></li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://www.visatoaustralia.pro/">Australia</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatogermany.com/">Germany</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatoamerica.org/">America</a> </li>
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div> -->
+
+          <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Important Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of Service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy Policy</a></li>
+            <li> <i class="bx bx-chevron-right"></i><a href="#">Disclaimer</a> </li>
+
+          </ul>
+        </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Visa To Denmark</span></strong>. All Rights Reserved
+          &copysr; Powered by <strong> <span>unisighttechnologies and digitalcue media</span></strong>
+        </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assetsassets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <link href="{% static  'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+  <!-- Template Main JS File-->
+
+
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+  <!-- <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+</body>
+
+</html>
