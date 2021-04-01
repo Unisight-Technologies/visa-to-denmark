@@ -44,17 +44,6 @@
   ======================================================== -->
 </head>
 
-
-
-
-
-
-
-
-
-
-<body style = font-size:16px;>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between" style="margin-left: 3%;">
@@ -119,7 +108,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-         <div style="background-color: #4B99BC; padding-top:-60%; padding-left: 50px; margin-top: -7%;" class="drop-down1" id="google_translate_element"></div>
+         <div style="background-color: #4B99BC; margin-top:-3%;  margin-right:-40%;" class="drop-down1" id="google_translate_element"></div>
 
 
   </header><!-- End Header -->
@@ -175,7 +164,10 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'index' %}">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="{% url 'student' %}">Student Visa & General Requirements</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="{% url 'workvisa' %}">Work Visa</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="{% url 'visitorvisa' %}">Visitor Visa</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="{% url 'family' %}">Family Visa </a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'about' %}">About Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'contact' %}">Contact Us</a></li>
 
@@ -212,9 +204,10 @@
           <div class="col-lg-2 col-md-6 footer-links">
           <h4>Important Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of Service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy Policy</a></li>
-            <li> <i class="bx bx-chevron-right"></i><a href="#">Disclaimer</a> </li>
+            <li><i class="bx bx-chevron-right"></i> <a href="{% url 'terms' %}">Terms of Service</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="{% url 'policy' %}">Privacy Policy</a></li>
+          <li> <i class="bx bx-chevron-right"></i><a href="{% url 'general' %}">Disclaimer</a> </li>
+          <li> <i class="bx bx-chevron-right"></i><a href="{% url 'givesit' %}">Giving Back</a> </li>
 
           </ul>
         </div>
@@ -264,12 +257,12 @@
 
   <script src="{% static 'assets/js/main.js' %}"></script>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 

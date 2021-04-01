@@ -10,6 +10,7 @@ from django.contrib import messages
 from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 from . import mailhandler
+from . import models
 
 
 
@@ -50,3 +51,28 @@ class visitorvisa(TemplateView):
         template_name= "visitorvisa.html"
 class family(TemplateView):
         template_name= "family.html"
+
+class policy(TemplateView):
+    template_name= "policy.html"
+
+class terms(TemplateView):
+    template_name= "terms.html"
+
+class general(TemplateView):
+    template_name= "generaldisclaimer.html"
+
+class givesit(TemplateView):
+    template_name= "givesit.html"
+
+class News(View):
+    def get(self, request, *args, **kwargs):
+        news=models.News.objects.all()
+        context={
+        "all_news":news,
+        "info":"mydata",
+
+
+        }
+        print(news)
+
+        return render(request, "news.html",context=context)

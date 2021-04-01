@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
   margin-top: -10%;
+  
 
 
   width: 50%;
@@ -133,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   color: White;
   margin-top: -5% !important;
   font-style: italic !important;
+  font-family: "Open Sans", sans-serif;
 
   font-size:16px;
   width: 60%;
@@ -239,7 +241,7 @@ overflow-x: auto !important;
 
   margin-top:-1%;
   text-decoration: none;
-  margin-right:-30%;
+  margin-right:4%;
 
 
 
@@ -256,6 +258,7 @@ overflow-x: auto !important;
 
 .navbar li {
   position: relative;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar a {
@@ -264,9 +267,9 @@ overflow-x: auto !important;
   justify-content: space-between;
   padding: 8px 16px;
   margin-left: 10px;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  /* font-weight: 500; */
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -1443,6 +1446,9 @@ section1-title1 {
   background-color: #67b0d1;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -1696,7 +1702,9 @@ section1-title1 {
 }
 
 #footer .footer-top .footer-info {
-  margin-top: -60px;
+  margin-top: 0px;
+  margin-left:-15%;
+  margin-right:15%;
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
