@@ -10,6 +10,8 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+
+
   <!-- Favicons -->
   <link href="{% static 'assets/img/logo2.png' %}" rel="icon">
   <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
@@ -45,8 +47,8 @@
 </head>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between" style="margin-left: 3%;">
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-nav d-flex align-items-center" style="margin-left: 3%;">
 
       <div class="logo">
         <a href="/" class ="logo1">
@@ -59,18 +61,14 @@
         <a href="#"> <img src="{% static 'assets/img/Animated-Flag-Denmark.gif' %}" style="height:45px"> </a>
         </div>
 
-          <div class="nav-inspiring" style = font-size:16px; >
-              <p class="font-italic" style="color:white text-align:left;""><i>"God's Help, the People's Love, Denmark's Strength"</i></p>
+          <div class="nav-inspiring" style = "font-size:16px;">
+              <p class="font-italic" style="color:white text-align:left;"><i>"Gods Help, the Peoples Love, Denmarks Strength"</i></p>
             </div>
 
 
 
-        <!-- <h1 class="text-light"><a href="index.html"><span>Denmark</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="{% static 'assets/img/logo.png' %}" alt="" class="img-fluid"></a>
-      </div> -->
 
-      <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="{% url 'index' %}">Home</a></li>
           <li><a class="nav-link scrollto" href="{% url 'news' %}">Breaking News</a></li>
@@ -105,22 +103,16 @@
 
 
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <i class="bi bi-list mobile-nav-toggle" ></i>
       </nav><!-- .navbar -->
 
-         <div style="background-color: #4B99BC; margin-top:-3%;  margin-right:-40%;" class="drop-down1" id="google_translate_element"></div>
+         <div style="background-color: #4B99BC;" class="drop-down1" id="google_translate_element"></div>
 
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1>Welcome to Denmark</h1>
-      <h2>"God's Help, the People's Love, Denmark's Strength"</h2>
-      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
-  </section><!- End Hero -->
+
+
+  </header>
+
 
 
 

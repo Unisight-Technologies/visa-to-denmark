@@ -77,30 +77,29 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 24px 0;
-  background: rgba(103, 176, 209, 0.8);
+  background: #4b99bc !important;
 }
 
 #header.header-transparent {
-  background: #4B99BC;
-  height:9%;
+  background: none;
 }
 
 #header.header-scrolled {
-  background: rgba(55, 142, 181, 0.9);
-
+  background: #4b99bc;
+  height: 60px;
 }
 
 #header .logo h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0;
+  padding: 4px 0;
   line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
 
@@ -110,91 +109,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  /* padding-bottom: 20px;
-  margin-top: -10%;
-  max-height: 60px; */
-
-
-  margin-top: -10%;
-
-
-
-  width: 50%;
-  height: 50%;
-
+  padding: 0;
+  max-height: 78px;
 }
 
-#header .nav-inspiring {
-  width: 110%;
-  margin-left: -13%;
+#main {
+  margin-top: 80px;
 }
-
-
-#header .nav-inspiring p{
+.nav-inspiring p{
   color: White;
-  margin-top: -5% !important;
+  margin-top: 8% !important;
   font-style: italic !important;
-  font-family: "Open Sans", sans-serif;
-
-  font-size:16px;
-  width: 60%;
-  height:40%;
+  font-size:15px;
+  margin-left: 0%;
+}
+.flags {
+  margin-left: 5%;
 }
 
-#header .nav-inspiring a{
-  margin-left:10%;
-
-
+.nav-flag {
+  margin-top:0.5%;
+  margin-left:3%;
 }
 
-#header .nav-flag {
-  margin-top:-2.5%;
-}
-
-#header .nav-flag a{
-
-  margin-left:-220%;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 412px) {
   .nav-inspiring p {
     display: none;
   }
-
 }
-
-@media (max-width: 600px) {
-  .logo img {
-    margin-bottom: 100% !important;
-    width: 50% !important;
-    height: 50% !important;
-    margin-left:0%;
-  }
-
-  .nav-flag img {
-    margin-top:-380%;
-    margin-left: 50%;
-    height:40px !important;
-
-
-  }
-}
-
-
-@media (max-width: 768px) {
-  #header.header-scrolled {
-    padding: 15px 0;
-  }
-}
-
 /* google */
+/*
+google_translate_element{
+  margin-left:20px;
+  background-color: #4b99bc;
+} */
 
-/* #google_translate_element{
-  margin-right: 20px;
-  background-color: #cc1616;
-}
-
-.goog-te-gadget-simple{
+/* .goog-te-gadget-simple{
   background-color: #cc1616;
 }
 
@@ -215,17 +165,18 @@ h1, h2, h3, h4, h5, h6 {
 } */
 
 
-.goog-te-gadget-icon{
+/* .goog-te-gadget-icon{
   display:none;
-}
+} */
 
-#google_translate_element{
-  margin-right: 20px;
-  background-color: #cc1616;
+/* #google_translate_element{
+  margin-left: 25px;
+  margin-top:0%;
+  background-color: #4B99BC;
 }
 
 .goog-te-gadget-simple{
-  background-color: #cc1616;
+  background-color: #4B99BC;
 }
 
 .goog-te-banner{
@@ -238,13 +189,15 @@ overflow-x: auto !important;
 
 @media only screen and (max-width: 600px) {
   #google_translate_element{
-    width: 100px;
+    width: 1400%;
     overflow-x: auto !important;
+    margin-right:7%;
+    margin-top:-10%;
     /* margin-left:-10px !important; */
 
 
-  }
-}
+  /* }
+} */
 
 
 
@@ -264,13 +217,8 @@ overflow-x: auto !important;
 * Desktop Navigation
 */
 .navbar {
-
-  margin-top:-1%;
-  text-decoration: none;
-  margin-right:4%;
-
-
-
+  padding: 0;
+  margin-right: 2%;
 }
 
 .navbar ul {
@@ -279,12 +227,10 @@ overflow-x: auto !important;
   display: flex;
   list-style: none;
   align-items: center;
-  text-decoration: none;
 }
 
 .navbar li {
   position: relative;
-  font-family: "Open Sans", sans-serif;
 }
 
 .navbar a {
@@ -292,10 +238,8 @@ overflow-x: auto !important;
   align-items: center;
   justify-content: space-between;
   padding: 8px 16px;
-  margin-left: 10px;
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
-  /* font-weight: 500; */
+  font-size: 14px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -308,6 +252,7 @@ overflow-x: auto !important;
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
+  color: #1c3745;
   background: rgba(255, 255, 255, 0.2);
   text-decoration: none;
 }
@@ -315,7 +260,7 @@ overflow-x: auto !important;
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 10px;
+  left: 14px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
@@ -333,10 +278,9 @@ overflow-x: auto !important;
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: none;
-  font-weight: 600;
-  color: #2f4d5a;
+  color: #1c3745;
 }
 
 .navbar .dropdown ul a i {
@@ -344,7 +288,7 @@ overflow-x: auto !important;
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #67b0d1;
+  color: #4b99bc;
 }
 
 .navbar .dropdown:hover > ul {
@@ -375,6 +319,18 @@ overflow-x: auto !important;
   }
 }
 
+
+/**
+* google
+*/
+.#main{
+  margin-top: 100px;
+}
+
+.goog-te-gadget-icon{
+  display:none;
+}
+
 /**
 * Mobile Navigation
 */
@@ -390,8 +346,6 @@ overflow-x: auto !important;
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
-    margin-right:200px;
-    margin-top:-90%;
   }
   .navbar ul {
     display: none;
@@ -405,7 +359,7 @@ overflow-x: auto !important;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(43, 111, 142, 0.9);
+  background: rgba(17, 38, 48, 0.9);
   transition: 0.3s;
 }
 
@@ -431,11 +385,11 @@ overflow-x: auto !important;
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2f4d5a;
+  color: #4b99bc;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #67b0d1;
+  color: #4b99bc;
 }
 
 .navbar-mobile .getstarted {
@@ -467,13 +421,12 @@ overflow-x: auto !important;
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #67b0d1;
+  color: #fff;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -1062,7 +1015,7 @@ section1-title1 {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px! important ;
+  padding: 20px! important ;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -1090,13 +1043,13 @@ section1-title1 {
   background: #67b0d1;
   top: 0;
   border-radius: 15px;
-  height:200px;
+  height:230px;
   width:300px;
 }
 
 .services .icon {
   margin-bottom: 15px;
-  padding-left:100px;
+  padding-left:80px;
   padding-top:10px;
 
 }
