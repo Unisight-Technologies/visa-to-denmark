@@ -30,9 +30,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'j@-(olo_cehgfga76$8bfk^1wdi9v@*0s27h%8(v@2pu*a%xl6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+if(socket.gethostname()=="LAPTOP-V2D839IV"):
+    DEBUG = True
+else:
+    DEBUG=False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','www.visatodenmark.com','visatodenmark.com']
 
 
 # Application definition

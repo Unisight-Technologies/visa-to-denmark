@@ -31,7 +31,7 @@ def sendMailToVisaToDenmark(name, email, phone, subject, message):
     subject = "A message has been received on Visa to Denmark."
     msg = Mail(
         from_email='unisighttechnologies@gmail.com',
-        to_emails='jayanthpabothu@gmail.com',
+        to_emails='unisighttechnologies@gmail.com',
         subject=subject,
         html_content=message
     )
