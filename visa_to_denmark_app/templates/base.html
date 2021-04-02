@@ -13,7 +13,7 @@
 
 
   <!-- Favicons -->
-  <link href="{% static 'assets/img/logo2.png' %}" rel="icon">
+  <link href="{% static 'assets/img/logo20.png' %}"  rel="icon">
   <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
@@ -70,23 +70,24 @@
 
         <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="{% url 'index' %}">Home</a></li>
+          <!-- <li><a class="nav-link scrollto active" href="{% url 'index' %}">Home</a></li> -->
+
           <li><a class="nav-link scrollto" href="{% url 'news' %}">Breaking News</a></li>
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{% url 'student' %}">Student Visa & General Requirements</a></li>
               <li><a href="{% url 'workvisa' %}">Work Visa</a></li>
               <li><a href="{% url 'visitorvisa' %}">Visitor Visa</a></li>
-              <li><a href="{% url 'family' %}">Family Visa </a></li>
+              <!-- <li><a href="{% url 'family' %}">Family Visa </a></li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Migration Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li> <a href="#">Italy</a> </li>
+              <li> <a href="https://visatoitaly.com">Italy</a> </li>
             <li> <a href="https://visatospain.pro/">Spain</a> </li>
             <li> <a href="https://visatomalta.com/">Malta</a> </li>
             <li> <a href="https://visatoportugal.pro/">Portugal</a> </li>
-            <li> <a href="#">Greece</a> </li>
+            <li> <a href="https://visatogreece.com/">Greece</a> </li>
             <li> <a href="https://visatocyprus.com/">Cyprus</a> </li>
             <li> <a href="https://visatoireland.com/">Ireland</a> </li>
             <li> <a href="https://visatocanada.pro/">Canada</a> </li>
@@ -132,7 +133,7 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <img class="footer-logo" style="width: 180px" src="/static/assets/img/logo.jpg" alt="">
+              <img class="footer-logo" style="width: 180px; margin-left:-4%;" src="/static/assets/img/logo.jpg" alt="">
               <br />
 
 
@@ -143,11 +144,11 @@
                 <strong>Email:</strong> <br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
               </div>
             </div>
           </div>
@@ -159,7 +160,7 @@
               <li><i class="bx bx-chevron-right"></i><a href="{% url 'student' %}">Student Visa & General Requirements</a></li>
               <li><i class="bx bx-chevron-right"></i><a href="{% url 'workvisa' %}">Work Visa</a></li>
               <li><i class="bx bx-chevron-right"></i><a href="{% url 'visitorvisa' %}">Visitor Visa</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="{% url 'family' %}">Family Visa </a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i><a href="{% url 'family' %}">Family Visa </a></li> -->
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'about' %}">About Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="{% url 'contact' %}">Contact Us</a></li>
 
@@ -169,11 +170,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Migration Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Italy</a> </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://visatoitaly.com/">Italy</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatospain.pro/">Spain</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatomalta.com/">Malta</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatoportugal.pro/">Portugal</a> </li>
-            <li><i class="bx bx-chevron-right"></i>  <a href="#">Greece</a> </li>
+            <li><i class="bx bx-chevron-right"></i>  <a href="https://visatogreece.com/">Greece</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatocyprus.com/">Cyprus</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatoireland.com/">Ireland</a> </li>
             <li><i class="bx bx-chevron-right"></i>  <a href="https://visatocanada.pro/">Canada</a> </li>
