@@ -71,6 +71,9 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .logo img {
+  padding-left:0 !important;
+}
 }
 
 /*--------------------------------------------------------------
@@ -109,8 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  padding: 0;
-  max-height: 78px;
+  padding-left: 23%;
+  max-height: 83px;
 }
 
 #main {
