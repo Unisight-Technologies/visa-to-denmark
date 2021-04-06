@@ -73,17 +73,80 @@ h1, h2, h3, h4, h5, h6 {
   }
   .logo img {
   padding-left:0 !important;
-}
+ }
+
+  #header {
+    top:0 !important;
+  }
+
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+#topbar {
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #000000;
+  background-color:#6F6F6F;
+}
+
+#topbar.topbar-scrolled {
+  top: -40px;
+}
+
+#topbar .contact-info a {
+  line-height: 1;
+  color: #000000;
+  transition: 0.3s;
+}
+
+#topbar .contact-info a:hover {
+  color: #cc1616;
+}
+
+#topbar .contact-info i {
+  color: #cc1616;
+  padding-right: 4px;
+}
+
+#topbar .contact-info i.icofont-phone {
+  margin-left: 15px;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 15px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .social-links a:hover {
+  color: #fff;
+}
+
+#topbar .social-links a:first-child {
+  border-left: 0;
+}
+
+#topbar .mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+
+
+
+
+
 #header {
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  /* top:40px; */
   background: #4b99bc !important;
 }
 
