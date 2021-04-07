@@ -91,11 +91,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   transition: all 0.5s;
   color: #000000;
-  background-color:#6F6F6F;
+  background-color:#6FADC9;
 }
 
 #topbar.topbar-scrolled {
-  top: -40px;
+  top: -40px !important;
+
 }
 
 #topbar .contact-info a {
@@ -144,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  /* top:40px; */
+  top:40px;
   background: #4b99bc !important;
 }
 
@@ -153,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
+  
   background: #4b99bc;
   height: 60px;
 }
