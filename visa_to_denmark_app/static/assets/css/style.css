@@ -156,7 +156,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  
+  top:40px;
+
   background: #4b99bc;
   height: 60px;
 }
