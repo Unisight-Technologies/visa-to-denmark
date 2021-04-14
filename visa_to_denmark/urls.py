@@ -24,7 +24,7 @@ urlpatterns = [
     path('about/',views.about.as_view(),name="about"),
     path('student/',views.student.as_view(),name="student"),
     path('workvisa/',views.workvisa.as_view(),name="workvisa"),
-    path('visitorvisa/',views.visitorvisa.as_view(),name="visitorvisa"),
+    path('denmarkstartupvisa/',views.denmarkstartupvisa.as_view(),name="denmarkstartupvisa"),
     path('family/',views.family.as_view(),name="family"),path('policy/',views.policy.as_view(),name="policy"),
     path('terms/',views.terms.as_view(),name="terms"),
     path('generaldisclaimer/',views.general.as_view(),name="general"),

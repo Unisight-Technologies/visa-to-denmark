@@ -30,7 +30,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'j@-(olo_cehgfga76$8bfk^1wdi9v@*0s27h%8(v@2pu*a%xl6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if(socket.gethostname()=="LAPTOP-V2D839IV"):
+if(socket.gethostname()=="LAPTOP-V2D839IV" or socket.gethostname()=="DESKTOP-CDJ0JAR"):
     DEBUG = True
 else:
     DEBUG=False

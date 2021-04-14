@@ -147,20 +147,15 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  top:40px;
   background: #4b99bc !important;
+  padding-top: 70px;
+  padding-bottom: 40px;
 }
 
 #header.header-transparent {
   background: none;
 }
 
-#header.header-scrolled {
-  top:40px;
-
-  background: #4b99bc;
-  height: 60px;
-}
 
 #header .logo h1 {
   font-size: 28px;

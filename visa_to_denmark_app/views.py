@@ -47,8 +47,8 @@ class student(TemplateView):
 class workvisa(TemplateView):
         template_name= "workvisa.html"
 
-class visitorvisa(TemplateView):
-        template_name= "visitorvisa.html"
+class denmarkstartupvisa(TemplateView):
+        template_name= "denmarkstartupvisa.html"
 class family(TemplateView):
         template_name= "family.html"
 

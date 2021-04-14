@@ -53,7 +53,6 @@
 
 
 
-
 // <script>
 // am4core.ready(function() {
 
@@ -201,6 +200,7 @@ imageSeries.data = [ {
   "url":href="https://visatoamerica.com",
   "color":colorSet.next()
 },  ];
+
 
 
 // }); // end am4core.ready()
