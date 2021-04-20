@@ -37,6 +37,7 @@ else:
 
 ALLOWED_HOSTS = ['127.0.0.1','www.visatodenmark.com','visatodenmark.com']
 
+GOOGLE_RECAPTCHA_SECRET_KEY = env('RECAPTCHA_KEY')
 
 # Application definition
 

@@ -10,7 +10,7 @@ environ.Env.read_env()
 
 def sendMailToUser(name, send_to):
     subject = "Thanks for contacting us"
-    message = "Hello "+name+"! \n\nWe have successfully received your message.\n\nWe will get back to you as soon as possible.\n\nRegards\n- Visa To Denmark."
+    message = "Hello "+name+"! <br><br>We have successfully received your message.<br><br>We will get back to you as soon as possible.<br><br>Regards<br>- Visa To Denmark."
     msg = Mail(
         from_email='unisighttechnologies@gmail.com',
         to_emails=send_to,
